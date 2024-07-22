@@ -1,0 +1,49 @@
+.logo{
+    background-color: red;
+}
+.main_container{
+    background-color: green;
+    flex-grow: 4;
+    margin-top: 5%;
+}
+.result_container{
+    background-color: yellow;
+}
+body{
+    display: flex;
+    flex-direction: row;
+}
+.result_container{
+    flex-grow: 2;
+}
+#badge{
+    background-color: #E9ECF8;
+    border-radius: 5%;
+    margin: 5%;
+}
+.result_items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.primary {
+    background-color: #052051;
+}
+
+.primary:hover {
+    background: #0b7dda;
+    color: white;
+}
+.secondary{
+    background-color: #356EA9;
+    border: 2px solid #0A3871;
+}
