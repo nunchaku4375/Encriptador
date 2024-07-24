@@ -11,23 +11,25 @@
     </head>
     <body>
         <div class="logo">
-            <img src="assets/Logo.png"  width="50" height="60"/>
+            <img src="assets/Logo.png"  class="img-logo"/>
         </div>
         <div class="main_container">
-            <input type="text" id="txtInput" name="txtInput">
-            <div id="ad_container">
-                <img src="assets/exclamation-circle.png"/>
-                <h5>Solo letras minusculas y sin acentos</h5>
-            </div>
+            <input type="text" id="txtInput" name="txtInput"  class="custom-input" placeholder="Ingrese el texto aquí">
             <div>
-                <button class="btn primary" onclick="encriptar()">Encriptar</button>
-                <button class="btn secondary" onclick="desencriptar()">Desencriptar</button>
+                <div class="ad_container">
+                    <img src="assets/exclamation-circle.png" class="img_exclamation"/>
+                    <h5>Solo letras minusculas y sin acentos</h5>
+                </div>
+                <div class="btn_container">
+                    <button class="btn primary" onclick="encriptar()">Encriptar</button>
+                    <button class="btn secondary" onclick="desencriptar()">Desencriptar</button>
+                </div>
             </div>
         </div>
         <div class="result_container">
-            <div id="badge">
+            <div class="badge">
                <div class="result_items">
-                   <img src="assets/Muneco.png" width="100" height="100">
+                   <img src="assets/Muneco.png" width="100" height="100" id="img_result">
                    <p id="result">Ningún mensaje fue encontrado</p>
                    <p id="txtResult">Ingresa el texto que desees encriptar o desencriptar.</p>
                </div> 
